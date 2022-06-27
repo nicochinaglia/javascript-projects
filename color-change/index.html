@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color change</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="colorBlock">
+            <form name="recieveColor">	
+                <p> input a color hex or color name: </p>
+                <input type="text" name="colorInput" id="colorInput" size="45" placeholder="ex:#2596BE">
+                <br><br>
+                <input type="button" name="changeColor" id="changeColor" value="click!" onclick="ChangeColor(document.recieveColor.colorInput.value);">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
