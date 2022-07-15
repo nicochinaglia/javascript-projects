@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="container">
+        <img src="images/mountains.jpg" id="backgroundImage" alt="">
+        
+        <div class="buttonClass" onclick="changeVisibility();">
+            <button>Hello! Click to trigger modal</button>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modalContent">
+                <img src="images/sair.png" id="out" onclick="hiddenVisibility();" alt="">
+                <h1>I am a modal! =D</h1>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
